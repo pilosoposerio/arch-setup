@@ -1,0 +1,80 @@
+;======================================
+; main bar i.e. top bar               ;
+;======================================
+
+[bar/hilaga]
+
+  font-0 = "Misc Tamsyn:pixelsize=12;0"
+ ; font-1 = "Roboto:size=11:weight=bold;2"
+ ; font-2 = "Noto Sans:size=11;1"
+  ;;font-3 = "Unifont:size=11;0"
+  font-1 = "Noto Color Emoji:style=Regular:size=12;0"
+  
+
+  dpi = 95
+  width = 100%
+  height = 24
+  offset-x = 0
+  offset-y = 0
+
+  bottom = false
+  background = #ffffffff
+
+  border-bottom-size = 0
+  border-top-size = 5
+
+  spacing = 0
+  padding-left = 0
+  padding-right = 0
+  module-margin-left = 3
+
+  fixed-center = true
+
+  modules-right = battery date
+  tray-position = right
+
+[module/date]
+  type = internal/date
+  date = %a, %b-%d-%Y
+  time = %H:%M:%S
+  format = 🕰 <label>
+  format-background = #000
+  format-foreground = #fff
+  
+  label = %date% %time%
+  label-font = 0
+  label-foreground = #9A32DB
+
+[module/battery]
+  type = internal/battery
+  full-at = 99
+  battery = BAT1
+  adapter = AC
+  poll-interval = 5
+  time-format = %H:%M
+  format-charging = <animation-charging> <label-charging>
+  format-discharging = <ramp-capacity> <label-discharging>
+  label-charging = Charging %percentage%%
+  label-discharging = Discharging %percentage%%
+  label-full = Fully Charged
+  ramp-capacity-0 = 
+  ramp-capacity-1 = 
+  ramp-capacity-2 = 
+  ramp-capacity-3 = 
+  ramp-capacity-4 = 
+  bar-capacity-width = 10
+  animation-charging-0 = 
+  animation-charging-1 = 
+  animation-charging-2 = 
+  animation-charging-3 = 
+  animation-charging-4 = 
+  animation-charging-framerate = 750
+
+  ; Only applies if <animation-discharging> is used
+  animation-discharging-0 = 
+  animation-discharging-1 = 
+  animation-discharging-2 = 
+  animation-discharging-3 = 
+  animation-discharging-4 = 
+  ; Framerate in milliseconds
+  animation-discharging-framerate = 500

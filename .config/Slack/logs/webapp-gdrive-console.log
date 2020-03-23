@@ -1,0 +1,146 @@
+[03/17/20, 11:10:55:839] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.3.2, linux 5.5.9-arch1-2 on x64 at 03/17/20, 11:10:55:838      ║
+╚═════════════════════════════════════════════════════════════════════════════╝ 
+[03/17/20, 11:10:55:839] info: Configured logger via 
+{
+  "identifierOverride": "webapp-gdrive-console",
+  "logLevel": "info",
+  "numberOfInstances": 3
+}
+[03/17/20, 11:10:55:839] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.3.2",
+  "PACKAGE_MANIFEST.commit": "bdb3575",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[03/17/20, 11:10:56:394] info: Initializing local storage instance at path: /home/cp/.config/Slack/local-settings.json 
+[03/17/20, 11:10:56:480] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/17/20, 11:10:56:482] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/17/20, 11:10:56:530] info: Read UUID from file successful {
+  "uuid": "5a1ad56b-c8c3-5ec0-b389-73c64f821632"
+} 
+[03/17/20, 11:10:56:577] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/17/20, 11:10:56:577] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/17/20, 11:10:56:586] info: Main window preload script finished {
+  "readyTime": 9.106815
+} 
+[03/17/20, 11:10:56:654] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/17/20, 11:10:56:654] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/17/20, 11:10:56:654] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/17/20, 11:10:56:705] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/17/20, 11:10:56:706] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/17/20, 11:10:56:706] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/17/20, 11:10:56:933] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 716,
+      "width": 688,
+      "x": 14,
+      "y": 38
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/17/20, 11:10:57:406] error: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://docs.google.com') does not match the recipient window's origin ('https://app.slack.com'). 
+[03/17/20, 11:10:57:793] error: Invalid 'X-Frame-Options' header encountered when loading 'https://docs.google.com/picker?protocol=gadgets&origin=https%3A%2F%2Fapp.slack.com&navHidden=true&multiselectEnabled=true&sdr=true&oauth_token=[REDACTED]&developerKey=[REDACTED]&title&hostId=app.slack.com&relayUrl=https%3A%2F%2Fapp.slack.com%2Ffavicon.ico&nav=((%22all%22))&rpcService=ldq60uojxf5h&rpctoken=oz16stnpaghv&thirdParty=true': 'ALLOW-FROM https://app.slack.com' is not a recognized directive. The header will be ignored. 
+[03/17/20, 11:11:50:322] info: Store: OPEN_CONTEXT_MENU {
+  "id": 3,
+  "params": "[REDACTED]"
+} 
+[03/17/20, 11:12:27:363] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/17/20, 11:13:37:393] info: Store: SET_SYSTEM_IDLE active 
+[03/17/20, 11:28:44:322] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.3.2, linux 5.5.9-arch1-2 on x64 at 03/17/20, 11:28:44:321      ║
+╚═════════════════════════════════════════════════════════════════════════════╝ 
+[03/17/20, 11:28:44:322] info: Configured logger via 
+{
+  "identifierOverride": "webapp-gdrive-console",
+  "logLevel": "info",
+  "numberOfInstances": 4
+}
+[03/17/20, 11:28:44:323] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.3.2",
+  "PACKAGE_MANIFEST.commit": "bdb3575",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[03/17/20, 11:28:44:998] info: Initializing local storage instance at path: /home/cp/.config/Slack/local-settings.json 
+[03/17/20, 11:28:45:071] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/17/20, 11:28:45:072] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/17/20, 11:28:45:107] info: Read UUID from file successful {
+  "uuid": "5a1ad56b-c8c3-5ec0-b389-73c64f821632"
+} 
+[03/17/20, 11:28:45:153] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/17/20, 11:28:45:153] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/17/20, 11:28:45:162] info: Main window preload script finished {
+  "readyTime": 8.584759
+} 
+[03/17/20, 11:28:45:283] error: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://docs.google.com') does not match the recipient window's origin ('https://app.slack.com'). 
+[03/17/20, 11:28:45:290] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/17/20, 11:28:45:290] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/17/20, 11:28:45:294] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/17/20, 11:28:45:338] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/17/20, 11:28:45:338] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/17/20, 11:28:45:340] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/17/20, 11:28:45:417] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 716,
+      "width": 688,
+      "x": 14,
+      "y": 38
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/17/20, 11:28:45:643] error: Invalid 'X-Frame-Options' header encountered when loading 'https://docs.google.com/picker?protocol=gadgets&origin=https%3A%2F%2Fapp.slack.com&navHidden=true&multiselectEnabled=true&sdr=true&oauth_token=[REDACTED]&developerKey=[REDACTED]&title&hostId=app.slack.com&relayUrl=https%3A%2F%2Fapp.slack.com%2Ffavicon.ico&nav=((%22all%22))&rpcService=mdn7t8n00ws8&rpctoken=mmwdjpbmh34r&thirdParty=true': 'ALLOW-FROM https://app.slack.com' is not a recognized directive. The header will be ignored. 

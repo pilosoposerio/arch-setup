@@ -1,0 +1,19 @@
+
+F1          F1
+F2          F2
+...         ...
+F12         F12
+
+Fn          XF86WakeUp
+Fn + F1     XF86AudioMute
+Fn + F2     XF86AudioLowerVolume
+Fn + F3     XF86AudioRaiseVolume
+Fn + F4     XF86AudioMicMute
+Fn + F5     XF86MonBrightnessDown
+Fn + F6     XF86MonBrightnessUp
+Fn + F7     XF86Display
+Fn + F8     XF86WLAN
+Fn + F9     XF86Tools
+Fn + F10    XF86Search
+Fn + F11    XF86LaunchA
+Fn + F12    XF86Explorer

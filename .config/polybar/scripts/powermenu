@@ -1,0 +1,13 @@
+#!/bin/bash
+
+## Created By Aditya Shakya
+
+MENU="$(rofi -sep "|" -dmenu -i -p 'Power' -location 3 -yoffset 32 -xoffset -10 -width 10 -hide-scrollbar -line-padding 4 -padding 20 -lines 3 <<< " Suspend| Reboot| Shutdown")"
+            case "$MENU" in
+                *Lock) i3lock-fancy ;;
+                *Suspend) "$HOME/.config/xsecurelock/launch.sh" & systemctl suspend;;
+                *Reboot)  reboot ;;
+                *Shutdown) poweroff
+            esac
+
+#  Lock|

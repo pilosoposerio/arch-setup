@@ -1,0 +1,14 @@
+/home/cp/.config/
+/home/cp/.vim/
+/home/cp/.vimrc
+/home/cp/.wallpapers
+/home/cp/.xinitrc
+/home/cp/.Xresources
+/home/cp/.xscreensaver
+/home/cp/scripts/
+/home/cp/.kb_mod
+/home/cp/.bash_aliases
+/home/cp/.bash_functions
+/home/cp/.bash_profile
+/home/cp/.bashrc
+/home/cp/.bash_aliases

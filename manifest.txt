@@ -1,5 +1,4 @@
 /home/cp/.config/
-/home/cp/.vim/
 /home/cp/.vimrc
 /home/cp/.wallpapers
 /home/cp/.xinitrc

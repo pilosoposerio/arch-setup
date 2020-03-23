@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+# delete default route
+ip route del default via 10.0.3.254 dev enp0s25
+
+# add new default gateway
+ip route add default via 10.0.3.131

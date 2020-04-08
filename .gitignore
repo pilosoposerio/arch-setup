@@ -1,0 +1,9 @@
+.config/GIMP/*
+.config/spotify/*
+.config/xfce4/*
+.config/pulse/*
+.config/dconf/*
+.config/gtk-2/*
+.config/gtk-3/*
+
+

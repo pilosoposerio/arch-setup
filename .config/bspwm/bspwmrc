@@ -31,6 +31,7 @@ patayin compton
 patayin feh
 patayin thunar
 patayin xscreensaver
+patayin qbittorrent-nox
 # start apps
 # start polybar
 $HOME/.config/polybar/launch.sh 
@@ -43,8 +44,7 @@ thunar --daemon &
 # enable compton
 compton -b --paint-on-overlay --config ~/.config/picom/picom.conf
 # set background
-feh --bg-fill ~/.wallpapers/snowymountains.jpg & 
-# xscreensaver daemon 
-xscreensaver -no-splash &
+feh --bg-fill ~/.wallpapers/dolphin.jpg & 
+qbittorrent-nox -d 
 # update pacman mirrorlist
 ~/scripts/launch_reflector.sh &

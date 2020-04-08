@@ -11,7 +11,7 @@ super + Return
 
 # program launcher
 super + @space
-  rofi -show run -location 1 -yoffset 32 -xoffset 10 -width 50 -hide-scrollbar -lines 1 -columns 4  
+  rofi -show drun -location 1 -yoffset 32 -xoffset 10 -width 50 -hide-scrollbar -lines 1 -columns 4  
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -5,5 +5,12 @@
 .config/dconf/*
 .config/gtk-2/*
 .config/gtk-3/*
+.config/QtProject.conf
+.config/mimeapps.list
+.config/qBittorrent/
+.config/user-dirs.*
+.config/vlc
+
+
 
 

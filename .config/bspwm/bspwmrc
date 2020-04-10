@@ -44,7 +44,7 @@ thunar --daemon &
 # enable compton
 compton -b --paint-on-overlay --config ~/.config/picom/picom.conf
 # set background
-feh --bg-fill ~/.wallpapers/dolphin.jpg & 
+feh --randomize --bg-max ~/.wallpapers/* & 
 qbittorrent-nox -d 
 # update pacman mirrorlist
 ~/scripts/launch_reflector.sh &

@@ -10,7 +10,5 @@
 .config/qBittorrent/
 .config/user-dirs.*
 .config/vlc
-
-
-
-
+.config/Thunar/*
+.config/gtk-2.0/*

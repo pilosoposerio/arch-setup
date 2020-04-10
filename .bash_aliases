@@ -1,6 +1,7 @@
 alias ls="ls -Fh --color"
 alias ..="cd .."
 alias ...="cd ../.."
+alias cp="rsync -r --progress -h"
 alias chmox="chmod +x"
 alias empty='cat /dev/null'
 alias diskspace_report="df -P -kHl"
